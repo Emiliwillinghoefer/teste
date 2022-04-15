@@ -1,0 +1,20 @@
+{
+  "name": "vendas",
+  "version": "1.0.0",
+  "description": "Desenvolver um pequeno sistema de vendas usando a linguagem e o banco de dados",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emili Willinghoefer",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15"
+  }
+}
